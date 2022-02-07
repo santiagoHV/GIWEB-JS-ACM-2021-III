@@ -1,5 +1,4 @@
-let carros = [
-    {
+let carros = [{
         marca: 'ford',
         modelo: 2021,
         referencia: 'fiesta',
@@ -18,9 +17,9 @@ let carros = [
         precio: 15000
     },
     {
-        marca:'Tesla',
-        modelo:2021,
-        referencia:'X',
+        marca: 'Tesla',
+        modelo: 2021,
+        referencia: 'X',
         precio: 30000
     },
     {
@@ -30,20 +29,20 @@ let carros = [
         precio: 20000
     },
     {
-        marca:'Tesla',
-        modelo:2019,
-        referencia:'S',
+        marca: 'Tesla',
+        modelo: 2019,
+        referencia: 'S',
         precio: 20000
     },
     {
-        marca:'Tesla',
-        modelo:2022,
-        referencia:'roadster',
+        marca: 'Tesla',
+        modelo: 2022,
+        referencia: 'roadster',
         precio: 1500000
     }
 ];
 
-for(let carro of carros){
+for (let carro of carros) {
     // console.log(carro.marca);
 }
 
@@ -94,13 +93,8 @@ let isCarrosCaros = carros.every((carro) => {
 
 
 //reduce - reduce un arreglo a un valor
-let total = carros.reduce((valorAcumulado ,carro)=>{
+let total = carros.reduce((valorAcumulado, carro) => {
     return valorAcumulado + carro.precio;
 }, 50000)
 
 // console.log(total);
-
-
-
-
-
