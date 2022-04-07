@@ -1,0 +1,23 @@
+{
+    "name": "clase-6",
+    "version": "1.0.0",
+    "description": "Learning NPM",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "live-server public",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "NPM",
+        "node",
+        "javascript"
+    ],
+    "author": "Santiago Herrera",
+    "license": "ISC",
+    "dependencies": {
+        "apexcharts": "^3.33.1",
+        "bootstrap": "^5.1.3",
+        "live-server": "^1.2.1"
+    }
+}
